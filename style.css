@@ -1,16 +1,15 @@
 @import url(styles/header.css);
 
-:root {
-    --cor-de-fundo: #9949B4;
-    --cor-cabecalho: #FFFFFF;
+:root{
+    --cor-de-fundo:   #9949B4;
+    --cor-cabecalho:   #FFFFFF;
 }
 
-body {
+body{
     background-color: var(--cor-de-fundo);
     margin: 0;
 }
-
-.cabecalho {
+.cabecalho{
     background-color: var(--cor-cabecalho);
     padding: 1em;
 }
@@ -24,10 +23,9 @@ body {
     padding: 1em;
 }
 
-.container__titulo, .container__frase {
+.container__titulo, .container__frase{
     display: none;
 }
-
 @media screen and (min-width: 820px) {
     .container__titulo, .container__titulo--negrito {
         font-size: 30px;
@@ -38,9 +36,8 @@ body {
         display: block;
     }
 }
-
 @media screen and (min-width: 1024px) {
-    .container__frase {
+    .container__frase{
         padding-left: 5em;
         font-size: 20px;
         display: block;
